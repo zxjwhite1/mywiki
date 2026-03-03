@@ -32,9 +32,7 @@
 
 **目录结构示例：**
 
-Plaintext
-
-```
+```Plaintext
 my-skill/
 ├── SKILL.md          # 必填：主要指令
 ├── docs/             # 可选：补充文档
@@ -45,9 +43,8 @@ my-skill/
 
 **SKILL.md 示例：**
 
-Markdown
 
-```
+```Markdown
 ---
 name: my-skill
 description: 简要描述该技能的作用及适用场景。
@@ -163,7 +160,6 @@ description: 简要描述该技能的作用及适用场景。
 - 校验（Linting）、数据处理（解析、转换）、复杂计算（成本估算）。
     
 - **优势**：脚本非常节省 Token，因为只有脚本的**输出**会进入上下文，而脚本本身的源代码不会。
-    
 
 ---
 
@@ -171,9 +167,9 @@ description: 简要描述该技能的作用及适用场景。
 
 创建一个名为 `data-analysis/` 的目录，并编写以下 `SKILL.md`：
 
-Markdown
 
-````
+
+``` Markdown
 ---
 name: data-analysis
 description: 分析数据文件并生成见解。当处理需要探索、清理或可视化的 CSV、Excel 或 JSON 数据文件时使用。
@@ -204,11 +200,5 @@ print(df.describe())
 
 对于可视化，根据复杂度优先选择 matplotlib 或 seaborn。
 
-```
 
----
-
-技能将 Cline 从一个通用的助手转变为精通你业务领域的专家。建议从一个你经常重复的任务开始，测试并迭代描述，直到它能稳定触发。
-
-**下一步：你希望我为你编写一个具体的技能模板（例如用于 Git 提交规范或特定的框架开发）吗？**
-```
+>技能将 Cline 从一个通用的助手转变为精通你业务领域的专家。建议从一个你经常重复的任务开始，测试并迭代描述，直到它能稳定触发。
