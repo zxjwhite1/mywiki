@@ -16,9 +16,7 @@
 
 **demo-workflow.md 示例：**
 
-Markdown
-
-````
+``` Markdown
 # 演示工作流
 简要描述该工作流实现的目标。
 
@@ -27,15 +25,13 @@ Markdown
 
 ## 步骤 2：运行构建
 执行构建命令：
-```bash
 npm run build
-````
 
 ## 步骤 3：验证结果
 
 检查构建是否成功完成，并报告任何问题。
 
-````
+```
 
 **步骤描述的深度可以灵活调整：**
 * **高层级描述**：“运行测试套件并修复任何失败项”，让 Cline 自行决定如何达成目标。
@@ -90,9 +86,7 @@ npm run build
 
 为了精确控制，使用 Cline 的内置工具：
 
-XML
-
-```
+```XML
 <execute_command>
   <command>npm run test</command>
   <requires_approval>false</requires_approval>
@@ -112,9 +106,7 @@ XML
 
 如果你连接了 **MCP 服务器**，可以使用 `use_mcp_tool` 语法：
 
-XML
-
-```
+``` XML
 <use_mcp_tool>
   <server_name>github-server</server_name>
   <tool_name>create_release</tool_name>
@@ -147,9 +139,7 @@ XML
 
 **release-prep.md**
 
-Markdown
-
-```
+``` Markdown
 # 发布准备
 通过运行测试、构建和更新版本信息来准备新版本。
 
